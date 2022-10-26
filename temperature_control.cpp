@@ -1,7 +1,7 @@
 
 
 #include "Arduino.h"
-#include "OTABlynkCredentials.h"
+#include "temperature_control.h"
 
 AsyncWebServer server(80); // Creating WebServer at port 80
 WebSocketsServer webSocket = WebSocketsServer(81); // Creating WebSocket Server at port81
